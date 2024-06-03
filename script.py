@@ -1,8 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 import os
-
-
+api_key = st.secrets["api_key"] 
 client = OpenAI(api_key=api_key)
 
 # Define personality categories
