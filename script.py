@@ -2,8 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import os
 
-# Set up the OpenAI API client
-api_key = os.getenv("OPENAI_API_KEY")
+
 client = OpenAI(api_key=api_key)
 
 # Define personality categories
